@@ -1,11 +1,4 @@
 import {
-  energySources,
-  airCompressor,
-  production,
-  resources,
-  silo,
-  weather,
-  ambientConditions,
   machine,
 } from "../../../charts/test";
 

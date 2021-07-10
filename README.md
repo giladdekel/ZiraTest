@@ -1,3 +1,1 @@
-# FullStackNextSystems
-# FullStackNextSystems
-# ZiraTest
+Full Stack test- Gilad Dekel 
