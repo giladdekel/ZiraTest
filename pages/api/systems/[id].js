@@ -1,4 +1,12 @@
 import {
+  energySources,
+  ambientConditions,
+  airCompressor,
+  production,
+  resources,
+  silo,
+  weather,
+  other,
   machine,
 } from "../../../charts/test";
 
@@ -16,8 +24,7 @@ export default function handler({ query: { id } }, res) {
 
       break;
     case "compressed-air":
-            res.status(200).json(airCompressor);
-
+      res.status(200).json(airCompressor);
 
       break;
     case "ambient-conditions":
